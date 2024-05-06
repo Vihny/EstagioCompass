@@ -1,23 +1,18 @@
 # Exercícios
 
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
-
-
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+Nessa Sprint realizei comandos práticos no terminal ao decorrer do curso, não houve atividades para evidenciar o código-fonte.
 
 
 
 # Evidências
 
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+Ao executar a primeira e segunda script do desafio é possível observar o registro do relatório de três dias diferente, o relatório final e seu conteúdo, podemos ver nas imagens a seguir:
 
 
-![Evidencia 1](evidencias/sample.webp)
-
+![Evidencia 1](/Sprint1/evidencias/evidenciasDesafio/Sprint1-DirBackupAposExecucoes.png)
+![Evidencia 2](/Sprint1/evidencias/evidenciasDesafio/Sprint1-RelatorioFinal.png)
 
 
 # Certificados
