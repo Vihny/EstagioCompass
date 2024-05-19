@@ -1,11 +1,15 @@
 # Exercícios
 
 
-Nessa Sprint realizei os execicios Liguagem SQL e Caso de Estudos.
+Nessa Sprint realizei os execicios Linguagem SQL e Caso de Estudos.
 
-
+1. Caso de Estudos
 [Resposta Ex1. Caso de Estudo](/Sprint2/exercicios/exerciciosCasoDeEstudo/)
+
+2. Linguagem SQL
 [Resposta Ex2. Linguagem SQL Etapa 1](/Sprint2/exercicios/10livros.csv)
+
+3. Linguagem SQL
 [Resposta Ex3. Linguagem SQL Etapa 2](/Sprint2/exercicios/5editoras.csv)
 
 
