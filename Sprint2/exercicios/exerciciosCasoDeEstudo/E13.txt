@@ -1,0 +1,17 @@
+SELECT 
+    p.cdpro AS cdpro, 
+    v.nmcanalvendas AS nmcanalvendas,
+    v.nmpro AS nmpro, 
+    SUM(v.qtd) AS quantidade_vendas
+FROM 
+    tbvendas v
+JOIN 
+    tbestoqueproduto p ON v.cdpro = p.cdpro
+WHERE 
+    v.status = 'Concluído' AND 
+    (v.nmcanalvendas = 'Ecommerce' OR v.nmcanalvendas = 'Matriz')
+GROUP BY 
+    p.cdpro, v.nmcanalvendas, v.nmpro
+ORDER BY 
+    quantidade_vendas 
+LIMIT 10;

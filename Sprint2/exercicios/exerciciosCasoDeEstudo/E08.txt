@@ -1,0 +1,15 @@
+SELECT v.cdvdd, v.nmvdd
+FROM tbvendas AS s
+JOIN tbvendedor AS v ON s.cdvdd = v.cdvdd
+WHERE s.status = 'Concluído'
+GROUP BY v.cdvdd, v.nmvdd
+HAVING COUNT(*) = (
+    SELECT MAX(qtd.contagem)
+    FROM (
+        SELECT COUNT(*) AS contagem
+        FROM tbvendas
+        WHERE status = 'Concluído'
+        GROUP BY cdvdd
+    ) qtd
+)
+ORDER BY v.nmvdd;

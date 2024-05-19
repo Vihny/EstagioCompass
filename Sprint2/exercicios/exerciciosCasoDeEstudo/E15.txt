@@ -1,0 +1,8 @@
+SELECT 
+    cdven
+FROM 
+    tbvendas
+WHERE 
+    status = 'Em aberto' AND deletado = 1 
+ORDER BY 
+    cdven;

@@ -1,0 +1,24 @@
+SELECT 
+    d.cddep AS cddep, 
+    d.nmdep AS nmdep, 
+    d.dtnasc AS dtnasc, 
+    v.valor_total_vendas AS valor_total_vendas
+FROM 
+    tbdependente d
+JOIN 
+    (
+        SELECT 
+            vd.cdvdd, 
+            SUM(vd.qtd * vd.vrunt) AS valor_total_vendas
+        FROM 
+            tbvendas vd
+        WHERE 
+            vd.status = 'Concluído'
+        GROUP BY 
+            vd.cdvdd
+        HAVING 
+            valor_total_vendas > 0
+        ORDER BY 
+            valor_total_vendas ASC
+        LIMIT 1
+    ) AS v ON d.cdvdd = v.cdvdd;
