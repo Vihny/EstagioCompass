@@ -29,7 +29,7 @@ Imagens dos gráficos e demais calculos realizados no desafio da sprint:
 ![Evidencia 2](/Sprint3/evidencias/GraficoDePizzaCategorias.png)
 ![Evidencia 3](/Sprint3/evidencias/AppMaisCaro.png)
 ![Evidencia 4](/Sprint3/evidencias/ClassMature.png)
-![Evidencia 5](//Sprint3/evidencias/Top10Reviews.png)
+![Evidencia 5](/Sprint3/evidencias/Top10Reviews.png)
 ![Evidencia 6](/Sprint3/evidencias/Top10Categorias.png)
 ![Evidencia 7](/Sprint3/evidencias/AppsClass5.png)
 ![Evidencia 8](/Sprint3/evidencias/GraficoDeLinhasAtualizacaoPorAno.png)
