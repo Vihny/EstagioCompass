@@ -16,7 +16,7 @@ Nessa Sprint realizei os execicios Linguagem SQL e Caso de Estudos.
 # Evidências
 
 
-Código exetuctado no exercício Linguagem SQL nas imagens a seguir:
+Execução de código do exercício Linguagem SQL nas imagens a seguir:
 
 
 ![Evidencia 1](/Sprint2/evidencias/etapa1.png)
