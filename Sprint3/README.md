@@ -14,7 +14,8 @@ Nessa Sprint foi realizado os execicios Linguagem Python I e Linguagem Python II
 
 # Desafio
 
-- Desafio Sprint 03: Pasta com os aquivos .csv com os dados utilizados e o arquivo em formato .IPYNB com a resolução do desafio.
+Desafio Sprint 03: Pasta com os aquivos .csv com os dados utilizados e o arquivo em formato .IPYNB com a resolução do desafio.
+
 [Desafio](/Sprint3/desafio/)
 
 
