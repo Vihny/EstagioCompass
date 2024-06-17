@@ -18,9 +18,11 @@ Desafio Sprint 04: Resolução do dessafio separado por etapas, nas pasta de cad
 
 Imagens das execucões realizadas no desafio da sprint:
 
-
+- Etapa 1
 ![Evidencia 1](/Sprint4/evidencias/ExecucaoEtapa1.png)
+- Etapa 2
 ![Evidencia 2](/Sprint4/evidencias/ExecucaoEtapa2.png)
+- Etapa 3
 ![Evidencia 3](/Sprint4/evidencias/ExecucaoEtapa3.png)
 
 
