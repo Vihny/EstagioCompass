@@ -1,0 +1,7 @@
+SELECT COUNT(cod) AS quantidade, nome, estado, cidade
+FROM editora e 
+JOIN livro l  ON e.codEditora = l.editora 
+JOIN endereco e2  ON e.endereco = e2.codEndereco 
+GROUP BY e.nome, e2.estado, e2.cidade 
+ORDER BY quantidade DESC 
+LIMIT 5;

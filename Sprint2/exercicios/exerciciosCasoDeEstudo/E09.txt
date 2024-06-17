@@ -1,0 +1,16 @@
+SELECT p.cdpro, v.nmpro
+FROM tbvendas AS v
+JOIN tbestoqueproduto AS p ON v.cdpro = p.cdpro
+WHERE v.status = 'Concluído' AND v.dtven BETWEEN '2014-02-03' AND '2018-02-02'
+GROUP BY p.cdpro, v.nmpro
+HAVING COUNT(*) = (
+    SELECT MAX(qtd.quantidade_vendida)
+    FROM (
+        SELECT COUNT(*) AS quantidade_vendida
+        FROM tbvendas
+        WHERE status = 'Concluído' AND dtven BETWEEN '2014-02-03' AND '2018-02-02'
+        GROUP BY cdpro
+    ) qtd
+)
+ORDER BY p.cdpro
+LIMIT 1;

@@ -1,0 +1,13 @@
+SELECT 
+    vd.cdcli  AS cdcli , 
+    vd.nmcli AS nmcli,
+    SUM(vd.qtd * vd.vrunt) AS gasto
+FROM 
+    tbvendas vd
+WHERE 
+    vd.status = 'Concluído'
+GROUP BY 
+    vd.cdcli, vd.nmcli 
+ORDER BY 
+    gasto DESC
+LIMIT 1;
