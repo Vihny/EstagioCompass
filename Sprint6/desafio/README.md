@@ -21,15 +21,15 @@ O script é responsável por fazer a ingestão de arquivos CSV para um bucket S3
   Lida com possíveis exceções e imprime mensagens de erro ou sucesso.
 - Execução Principal: Itera sobre os arquivos locais e chama a função upload_to_s3 para cada um.
 
-## Comando para criar a imagem
+## 3. Comando para criar a imagem
 
  O comando ```docker build -t carregamento-s3 .``` cria uma imagem Docker chamada carregamento-s3 usando o Dockerfile localizado no diretório atual. Esta imagem pode então ser usada para criar contêineres que executam o script de upload para o S3.
 
-## Comando para execultar o script no conteiner
+## 4. Comando para execultar o script no conteiner
 
 O comando ```docker run --rm -v C:/Users/Vini/Documents/EstagioCompas/Sprint06/Desafio/Filmes+e+Series:/app/data carregamento-s3``` cria e executa um contêiner Docker a partir da imagem carregamento-s3, removendo o contêiner automaticamente após a execução (--rm). O diretório local C:/Users/Vini/Documents/EstagioCompass/Sprint06/Desafio/Filmes+e+Series é montado como /app/data dentro do contêiner (-v), permitindo que o script Python acesse e faça o upload dos arquivos CSV para o bucket S3 na AWS.
 
-## Evidência do resultado no console AWS
+## 5. Evidência do resultado no console AWS
 
 ![Evidencia 1](/Sprint6/evidencias/desafio1.png)
 ![Evidencia 2](/Sprint6/evidencias/desafio2.png)
