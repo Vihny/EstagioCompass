@@ -10,7 +10,7 @@ Nessa Sprint foi realizado os exercício no coslode da AWS, consegui execultar o
 Desafio Sprint 06: Na pasta do dessafio contém o script em Python utilizado , o aqurivo Dockerfile utilizado para criar a imagem no Docker e um Aquivo Markdown explicando a resolusão do desafio.
 
 
-Desafio. [Desafio](/Sprint6/desafio/)
+Desafio. [Diretório](/Sprint6/desafio/)
 
 
 # Evidências
