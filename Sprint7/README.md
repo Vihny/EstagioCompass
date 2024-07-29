@@ -11,7 +11,7 @@ Nessa Sprint foi realizado os exercício Apache Spark e o Lab Glue. Na pasta de 
 # Desafio
 
 
-Desafio Sprint 06: Na pasta do desafio contém o script em Python utilizado no Lambda e uma pasta com os arquivos utilizados para fazer o teste na máquina local.
+Desafio Sprint 07: Na pasta do desafio contém o script em Python utilizado no Lambda e uma pasta com os arquivos utilizados para fazer o teste na máquina local.
 
 Readme do Desafio. [Desafio](/Sprint7/desafio/README.md)
 
