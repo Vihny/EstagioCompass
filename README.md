@@ -15,3 +15,5 @@ Olá, sou Marcos Vinicius Carvalho, resido na cidade Vitória da Conquista e atu
 5. [Sprint 5](/Sprint5/README.md)
 
 6. [Sprint 6](/Sprint6/README.md)
+
+7. [Sprint 7](/Sprint7/README.md)

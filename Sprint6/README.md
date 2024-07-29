@@ -1,13 +1,13 @@
 # Exercícios
 
 
-Nessa Sprint foi realizado os exercício no coslode da AWS, consegui execultar os exercícios Lab AWS S3, Lab AWS Athena e Lab AWS Lambda. Imagens do processo desse exercícios estao na seção de evidências.
+Nessa Sprint foi realizado os exercício no coslode da AWS, consegui execultar os exercícios Lab AWS S3, Lab AWS Athena e Lab AWS Lambda. Imagens do processo desse exercícios estão na seção de evidências.
 
 
 # Desafio
 
 
-Desafio Sprint 06: Na pasta do dessafio contém o script em Python utilizado , o aqurivo Dockerfile utilizado para criar a imagem no Docker e um Aquivo Markdown explicando a resolusão do desafio.
+Desafio Sprint 06: Na pasta do dessafio contém o script em Python utilizado , o arquivo Dockerfile utilizado para criar a imagem no Docker e um Aquivo Markdown explicando a resolusão do desafio.
 
 
 Desafio. [Diretório](/Sprint6/desafio/)
