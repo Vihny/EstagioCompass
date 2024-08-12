@@ -10,19 +10,19 @@
 
 JobCSV. [script](/Sprint8/desafio/JobCSV.py)
 
-Spark: Utiliza Spark para ler um arquivo CSV.
-Transformações e Filtragem: Divide a coluna de gêneros, filtra por animação, nota alta e ano de lançamento.
-Limpeza: Remove colunas desnecessárias e elimina duplicados.
-Salvamento: Salva os dados processados em formato Parquet no S3.
+- Spark: Utiliza Spark para ler um arquivo CSV.
+- Transformações e Filtragem: Divide a coluna de gêneros, filtra por animação, nota alta e ano de lançamento.
+- Limpeza: Remove colunas desnecessárias e elimina duplicados.
+- Salvamento: Salva os dados processados em formato Parquet no S3.
 
 ## 2. Script Python JobJSOM
 
 JobJSOM. [script](/Sprint8/desafio/JobJSOM.py)
 
-Spark e GlueContext: Utiliza Spark e GlueContext para ler dados JSON do S3.
-Transformações: Renomeia colunas e preenche valores nulos.
-Particionamento: Extrai e formata data do caminho do arquivo para particionamento.
-Salvamento: Escreve dados em formato Parquet no S3 com particionamento.
+- Spark e GlueContext: Utiliza Spark e GlueContext para ler dados JSON do S3.
+- Transformações: Renomeia colunas e preenche valores nulos.
+- Particionamento: Extrai e formata data do caminho do arquivo para particionamento.
+- Salvamento: Escreve dados em formato Parquet no S3 com particionamento.
 
 ## 3. Evidências da execução no AWS Glue e resultado no Bucket S3.
 

@@ -1,12 +1,12 @@
 # Exercícios
 
 
-Nessa Sprint foi realizado o exercício Spark Batch que possui a parte 1-Geração e massa de dados e a parte 2-Apache Spark. No diretório execícios contém uma pasta para cada parte realizada, o aquivo gerado com os nomes aleatorio não foi incluso por causa do tamaho. As imagens do processo dos do exercício estão na seção de evidências.
+Nessa Sprint foi realizado o exercício Spark Batch que possui a parte 1-Geração e massa de dados e a parte 2-Apache Spark. No diretório execícios contém uma pasta para cada parte realizada, o aquivo gerado com os nomes aleatorio não foi incluido por causa do tamaho. As imagens do processo dos do exercício estão na seção de evidências.
 
 1. Spark Batch 1
 [Geração e massa de dados](/Sprint8/exercicios/GeracaoeMassaDeDados/)
 2. Spark Batch 2
-[Apache Spark](/Sprint7/exercicios/spark.ipynb)
+[Apache Spark](/Sprint8/exercicios/ApacheSpark/)
 
 # Desafio
 
