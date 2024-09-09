@@ -26,9 +26,11 @@ JobCamadaRefined - [script](/Sprint9/desafio/JobCamadaRefined.py)
 ## 3. Evidências do Desafio
 
 - Modelagem dimensional
+
 ![Evidencia 1](/Sprint9/evidencias/Modelagemdimensional.png)
 
 - AWS console
+
 ![Evidencia 2](/Sprint9/evidencias/DesafioJobGlue.png)
 ![Evidencia 3](/Sprint9/evidencias/DesafioJobGlue2.png)
 ![Evidencia 4](/Sprint9/evidencias/DesafioCrawler.png)
